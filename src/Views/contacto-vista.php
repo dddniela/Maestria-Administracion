@@ -135,7 +135,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
+                echo $coordinador['nombrePuesto'] . " de Maestría en Administración";
               }
               ?>
             </h4>

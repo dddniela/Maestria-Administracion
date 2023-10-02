@@ -120,7 +120,6 @@
     <p class="seccion-texto-parrafo">El departamento académico cuenta con trece aulas asignadas al área, un laboratorio
       de “Simulación de Negocios”, área de oficinas, cubículos para docentes, entre otras áreas de uso común a nivel
       institucional.</p>
-    <a href="?option=6" class="seccion-boton">Explorar</a>
   </div>
 
   <div class="seccion-galeria">
@@ -136,12 +135,26 @@
 <section class="seccion-contenedor">
 
   <div class="seccion-galeria">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/claudiaGuadalupeZarrabalGutierrez.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/joseSatsumiLopezMorales.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/mariadelPilarPalomequeLavoignet.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/myrnaGuadalupeAndradeEstrada.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/mariaDeLosAngelesCamachoMorales.webp " alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/perfectoGabrielTrujilloCastro.webp" alt="">
+    <div class="col-4 px-2">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'claudiaGuadalupeZarrabalGutierrez.webp'; ?>" alt="">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'marinaCeciliaPerezCastillo.webp'; ?>" alt="">
+    </div>
+
+    <div class="col-4 px-2">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'joseSatsumiLopezMorales.webp'; ?>" alt="">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'myrnaGuadalupeAndradeEstrada.webp'; ?>" alt="">
+    </div>
+
+    <div class="col-4 px-2">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'mariadelPilarPalomequeLavoignet.webp'; ?>" alt="">
+      <img class="img-fluid w-100 shadow-1-strong rounded m-2"
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'Perfecto-Gabriel-Trujillo-Castro.webp'; ?>" alt="">
+    </div>
   </div>
 
   <div class="seccion-texto">
