@@ -1,7 +1,7 @@
 <!-- Sección: Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.webp" alt="">
+        <img class="w-100 img-fluid" src="img/portadas/IMG_ECO192.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Aspirantes</h1>
@@ -14,7 +14,7 @@
 <!-- Sección: Perfil de ingreso -->
 <section class="seccion-contenedor">
 
-    <img class="seccion-imagen" src="img/laboratorios/genetica-aplicada/IMG_7512.jpg" alt="">
+    <img class="seccion-imagen" src="img/fotos/IMG_ECO31.webp" alt="">
 
     <div class="seccion-texto">
         <h2 class="seccion-texto-titulo">Perfil de ingreso</h2>
@@ -59,6 +59,6 @@
             una vez concluido este proceso el aspirante estará formalmente inscrito.</li>
     </div>
 
-    <img class="seccion-imagen" src="img/laboratorios/bioprocesos/IMG_7636.jpg" alt="">
+    <img class="seccion-imagen" src="img/fotos/IMG_2229.webp" alt="">
 
 </section>

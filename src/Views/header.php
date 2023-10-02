@@ -148,7 +148,7 @@
                         <a class="nav-link active hover-blue" href="?option=5">Núcleo Académico</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=6">Instalaciones</a>
+                        <a class="nav-link active hover-blue" href="?option=6">Egresados</a>
                     </li>
                     <li class="nav-item hover-blue">
                         <a class="nav-link active hover-blue" href="?option=7">Contacto</a>
