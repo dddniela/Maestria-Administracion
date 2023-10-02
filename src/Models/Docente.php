@@ -213,7 +213,7 @@ class Docente
         // Botón "Anterior"
         if ($currentPage > 1) {
             $prevPage = ($currentPage - 2) * $docentesPorPagina;
-            $paginacion .= '<li class="page-item"><a class="page-link" href="?option=6&inferior=' . $prevPage . '">Anterior</a></li>';
+            $paginacion .= '<li class="page-item"><a class="page-link" href="?option=5&inferior=' . $prevPage . '">Anterior</a></li>';
         } else {
             $paginacion .= '<li class="page-item disabled"><a class="page-link" href="#">Anterior</a></li>';
         }
@@ -222,13 +222,13 @@ class Docente
         for ($i = 1; $i <= $numPaginas; $i++) {
             $pageStart = ($i - 1) * $docentesPorPagina;
             $activeClass = $currentPage === $i ? 'active' : '';
-            $paginacion .= '<li class="page-item ' . $activeClass . '"><a class="page-link" href="?option=6&inferior=' . $pageStart . '">' . $i . '</a></li>';
+            $paginacion .= '<li class="page-item ' . $activeClass . '"><a class="page-link" href="?option=5&inferior=' . $pageStart . '">' . $i . '</a></li>';
         }
 
         // Botón "Siguiente"
         if ($currentPage < $numPaginas) {
             $nextPage = $currentPage * $docentesPorPagina;
-            $paginacion .= '<li class="page-item"><a class="page-link" href="?option=6&inferior=' . $nextPage . '">Siguiente</a></li>';
+            $paginacion .= '<li class="page-item"><a class="page-link" href="?option=5&inferior=' . $nextPage . '">Siguiente</a></li>';
         } else {
             $paginacion .= '<li class="page-item disabled"><a class="page-link" href="#">Siguiente</a></li>';
         }
