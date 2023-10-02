@@ -1,3 +1,13 @@
+<?php
+require_once("src/Models/Administrativo.php");
+$administrativos = new Administrativo();
+
+$coordinador = $administrativos->getCoordinador();
+$jefeDEPI =  $administrativos->getJefeDEPI();
+
+$imagenJefeDEPI = $GLOBALS['PATH_DOCENTE'] . $jefeDEPI['imagen'];
+$imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
+?>
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
@@ -60,25 +70,29 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Olaya Pirene Castellanos Onorio</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php
+              if ($jefeDEPI) {
+                echo $jefeDEPI['nombre'];
+              }
+              ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa de la de División de Estudios de Posgrados e Investigación
+              <?php
+              if ($jefeDEPI) {
+                echo $jefeDEPI['nombrePuesto'];
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Olaya Pirene Castellanos Onorio, Jefa de la de División de Estudios de Posgrados e Investigación de las
-              maestrías
-              en Ciencias en Ingeniería Bioquímica, Administración, Eficiencia energética y energías renovables y el
-              Doctorado en Ciencias en Alimentosen
-              del Tecnológico de Veracruz; Doctor en Ciencias en alimentos. En el cargo
-              de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de posgrados que se imparten en el instituto
-              tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
-              derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
-              actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
-              con calidad y espíritu de servicio.
+              <?php
+              if ($jefeDEPI) {
+                echo $jefeDEPI['descripcion'];
+              }
+              ?>
             </p>
           </div>
         </div>
@@ -87,7 +101,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/olayaCastellanosOnorio.png" alt="">
+        <img class="img-fluid rounded" src='<?php if ($jefeDEPI)  echo $imagenJefeDEPI; ?>' alt="">
       </div>
     </div>
 
@@ -102,7 +116,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/joseSatsumiLopezMorales.webp" alt="">
+        <img class="img-fluid rounded" src='<?php if ($coordinador) echo $imagenCoordinador; ?>' alt="">
       </div>
     </div>
 
@@ -110,25 +124,29 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">José Satsumi López Morales</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php
+              if ($coordinador) {
+                echo $coordinador['nombre'];
+              }
+              ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Coordinador de la Maestría en Administración
+              <?php
+              if ($coordinador) {
+                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              José Satsumi López Morales, coordinador de la Maestría en Administración
-              en el Tecnológico de Veracruz; Dr. en Ciencias de la Administración por la Universidad Cristóbal Colón,
-              Maestro en Dirección de Empresas por la Universidad de Palermo en Buenos Aires, Argentina, y Licenciado en
-              Mercados y Negocios Internacionales por la Universidad Cristóbal Colón. Es Investigador Nacional Nivel I
-              Sistema Nacional de Investigadores de CONACYT desde 2016. Cuenta con el reconocimiento de Perfil Deseable
-              de PRODEP desde 2017. Es miembro de la Academy of International Business (AIB). Ha sido responsable de la
-              mesa de “Global and Regional Supply Chain” del Congreso de la Academy of International Business Capitulo
-              América Latina en los años 2021 y 2022, eventos celebrados en Miami y Brasil. Comentarista invitado a la
-              mesa de Administración Estratégica de la Academia de Ciencias Administrativas (ACACIA) celebrados en San
-              Luis Potosí y Monterrey. Actualmente es profesor de tiempo completo y Coordinador Académico de la Maestría
-              en Administración del Tecnológico Nacional de México- Instituto Tecnológico de Veracruz.
+              <?php
+              if ($coordinador) {
+                echo $coordinador['descripcion'];
+              }
+              ?>
             </p>
           </div>
         </div>

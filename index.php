@@ -1,11 +1,9 @@
-<?php /*
+<?php
 require_once("src/Models/Conexion.php");
 require_once "src/Models/Docente.php";
-require_once("src/Models/Materia.php");
-require_once("src/Models/Especialidad.php");
-require_once("src/Models/Comunidad.php");
+require_once "src/Models/Egresado.php";
 
-*/
+
 $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 $urlControl = array(
@@ -13,22 +11,16 @@ $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Maestria-Administracion/?option=0"
 );
 
-
+$programaId = 14;
 $api = 'http://localhost:3010';
 $PATH_DOCENTE = $GLOBALS['api'] . '/imagenes/Mtria-Administracion/docentes/';
-/*
-$programaId = 3;
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
 $docente->setConnection($conn->getDB());
-$materia = new Materia();
-$materia->setConnection($conn->getDB());
-$especialidad = new Especialidad();
-$especialidad->setConnection($conn->getDB());
-$comunidad = new Comunidad();
-$comunidad->setConnection($conn->getDB());
-*/
+$egresado = new Egresado();
+$egresado->setConnection($conn->getDB());
 ?>
 
 <!DOCTYPE html>
