@@ -139,19 +139,19 @@
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
         src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'claudiaGuadalupeZarrabalGutierrez.webp'; ?>" alt="">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'marinaCeciliaPerezCastillo.webp'; ?>" alt="">
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'mariaDeLosAngelesCamachoMorales.webp'; ?>" alt="">
     </div>
 
     <div class="col-4 px-2">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
         src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'joseSatsumiLopezMorales.webp'; ?>" alt="">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'myrnaGuadalupeAndradeEstrada.webp'; ?>" alt="">
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'normaEdithPeraltaVazquez.webp'; ?>" alt="">
     </div>
 
     <div class="col-4 px-2">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'mariadelPilarPalomequeLavoignet.webp'; ?>" alt="">
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'myrnaGuadalupeAndradeEstrada.webp'; ?>" alt="">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
         src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'perfectoGabrielTrujilloCastro.webp'; ?>" alt="">
     </div>
