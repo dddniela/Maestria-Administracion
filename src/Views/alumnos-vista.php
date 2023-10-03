@@ -14,7 +14,7 @@
 <!-- Sección: Perfil de ingreso -->
 <section class="seccion-contenedor">
 
-  <img class="seccion-imagen" src="img/fotos/IMG_2225.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon6.webp" alt="">
 
   <div class="seccion-texto">
     <h2 class="seccion-texto-titulo">Objetivo General</h2>
@@ -57,7 +57,7 @@
       instancias educativas al efecto, será causa de baja definitiva del estudiante de programa.</li>
   </div>
 
-  <img class="seccion-imagen" src="img/fotos/IMG_2226.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon7.webp" alt="">
 
 </section>
 
