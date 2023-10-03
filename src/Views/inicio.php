@@ -6,12 +6,11 @@
         aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/portadas/IMG_ECO246.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO1883.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Maestría en Administración</h1>
@@ -30,18 +29,6 @@
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Maestría en Administración</h1>
             <h2 class="mainSubtitle text-center font-bold shadow-text">Administra empresas con excelencia y visión.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img src="img/portadas/IMG_ECO1883.webp" class="d-block w-100 align-middle" width="100%" height="100%">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2 shadow-text">Maestría en Administración</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Lidera equipos y alcanza
-              metas corporativas.</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=4">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -75,7 +62,7 @@
 <!-- Sección: Descripción de la maestría -->
 <section class="seccion-contenedor">
 
-  <img class="seccion-imagen" src="img/fotos/admon1.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon3.webp" alt="">
 
   <div class="seccion-texto">
     <h2 class="seccion-texto-titulo">Maestría en Administración</h2>
@@ -197,7 +184,7 @@
     </a>
   </div>
 
-  <img class="seccion-imagen" src="img/fotos/admon3.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon1.webp" alt="">
 
 </section>
 

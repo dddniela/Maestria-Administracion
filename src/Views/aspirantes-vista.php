@@ -14,7 +14,7 @@
 <!-- Sección: Perfil de ingreso -->
 <section class="seccion-contenedor">
 
-    <img class="seccion-imagen" src="img/fotos/IMG_ECO31.webp" alt="">
+    <img class="seccion-imagen" src="img/fotos/admon4.webp" alt="">
 
     <div class="seccion-texto">
         <h2 class="seccion-texto-titulo">Perfil de ingreso</h2>
@@ -59,6 +59,6 @@
             una vez concluido este proceso el aspirante estará formalmente inscrito.</li>
     </div>
 
-    <img class="seccion-imagen" src="img/fotos/IMG_2229.webp" alt="">
+    <img class="seccion-imagen" src="img/fotos/admon5.webp" alt="">
 
 </section>
