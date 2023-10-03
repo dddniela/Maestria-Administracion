@@ -75,7 +75,7 @@
 <!-- Sección: Descripción de la maestría -->
 <section class="seccion-contenedor">
 
-  <img class="seccion-imagen" src="img/fotos/IMG_2224.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon1.webp" alt="">
 
   <div class="seccion-texto">
     <h2 class="seccion-texto-titulo">Maestría en Administración</h2>
@@ -92,7 +92,7 @@
 <!-- Sección: Lineas de investigación -->
 <section class="seccion-contenedor">
 
-  <img class="seccion-imagen" src="img/fotos/IMG_2228.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon2.webp" alt="">
 
   <div class="seccion-lista">
     <h2 class="seccion-texto-titulo">Líneas de investigación</h2>
@@ -197,7 +197,7 @@
     </a>
   </div>
 
-  <img class="seccion-imagen" src="img/fotos/IMG_2227.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon3.webp" alt="">
 
 </section>
 
