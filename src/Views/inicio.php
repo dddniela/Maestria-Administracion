@@ -146,7 +146,7 @@
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
         src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'joseSatsumiLopezMorales.webp'; ?>" alt="">
       <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'normaEdithPeraltaVazquez.webp'; ?>" alt="">
+        src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'antonioHuertaEstevez.webp'; ?>" alt="">
     </div>
 
     <div class="col-4 px-2">
