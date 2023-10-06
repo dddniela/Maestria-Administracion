@@ -14,7 +14,7 @@
 <!-- Sección: Perfil de ingreso -->
 <section class="seccion-contenedor">
 
-  <img class="seccion-imagen" src="img/fotos/admon6.webp" alt="">
+  <img class="seccion-imagen" src="img/fotos/admon20.webp" alt="">
 
   <div class="seccion-texto">
     <h2 class="seccion-texto-titulo">Objetivo General</h2>

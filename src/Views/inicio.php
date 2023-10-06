@@ -111,7 +111,7 @@
 
   <div class="seccion-galeria">
     <img class="seccion-imagen" src="img/fotos/IMG_ECO28.webp" alt="">
-    <img class="seccion-imagen" src="img/fotos/admin_50.webp" alt="">
+    <img class="seccion-imagen" src="img/fotos/IMG_ECO23.webp" alt="">
     <img class="seccion-imagen" src="img/fotos/IMG_ECO32.webp" alt="">
     <img class="seccion-imagen" src="img/fotos/admin_51.webp" alt="">
   </div>
